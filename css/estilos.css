@@ -23,7 +23,7 @@ body {
 #header-img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Clave: ajusta la imagen sin deformarla */
+    object-fit: cover; 
     display: block;
 }
 
@@ -35,7 +35,7 @@ h1 {
 
 #gallery-container {
     display: grid;
-    /* Diseño responsive: las columnas se ajustan solas (mínimo 250px) */
+    /* Responsive: las columnas se ajustan solas (mínimo 250px) */
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
