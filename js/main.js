@@ -1,4 +1,4 @@
-// 1. Mi proyecto
+// 1. Mi proyecto (header y galería de imágenes)
 const headerImages = [
     {url: 'assets/imagenes/1.jpg', alt: 'La puesta de sol' },
     {url: 'assets/imagenes/2.jpg', alt: 'Globos volando en el cielo azul'},
