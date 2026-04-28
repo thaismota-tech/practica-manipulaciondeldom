@@ -47,7 +47,7 @@ window.onload = function() {
         const description = document.createElement('p');
         description.textContent = item.desc;
 
-        // Juntar las piezas
+        // Juntar los elementos de mi página web
         content.appendChild(description);
         card.appendChild(img);
         card.appendChild(content);
