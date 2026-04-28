@@ -1,0 +1,73 @@
+/* Configuración básica */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos para el Header */
+#main-header {
+    width: 100%;
+    height: 300px; /* Altura fija para el banner */
+    overflow: hidden;
+    background-color: #222;
+}
+
+#header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+/* Título y Contenedor Principal */
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#gallery-container {
+    display: grid;
+    /* Responsive: las columnas se ajustan solas (mínimo 250px) */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para las Tarjetas (Cards) */
+.card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de levitación */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content p {
+    font-size: 1.0 rem;
+    color: #666;
+}
